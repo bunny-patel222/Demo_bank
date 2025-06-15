@@ -2,25 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="D:/Automation Practice/NEW_PRAC/Demo_Bank">
-<!--        <groups>-->
-<!--            <run>-->
-<!--                <include name="regression"/>-->
-<!--            </run>-->
-<!--        </groups>-->
         <classes>
-
             <class name="Testcase.AccountAction">
                 <methods>
                     <include name="accountAction"/>
                 </methods>
             </class>
-            <class name="Testcase.RegisterTest">
-
-            </class>
-            <class name="Testcase.LoginTest">
-
-            </class>
-
         </classes>
     </test>
 </suite>
