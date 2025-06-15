@@ -10,10 +10,11 @@ import org.openqa.selenium.support.PageFactory;
 import java.io.FileNotFoundException;
 
 public class AccountPage extends AbstractComponent {
-
+    public WebDriver driver;
 
     public AccountPage(WebDriver driver) throws FileNotFoundException {
         super(driver);
+        this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 

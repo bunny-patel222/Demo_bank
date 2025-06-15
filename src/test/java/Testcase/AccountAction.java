@@ -12,6 +12,8 @@ public class AccountAction extends BaseTest {
     public void accountAction() throws Exception {
 
         AccountPage accountPage = new AccountPage(driver);
+        LaunchApp();
+
         accountPage.GetBalance();
 
     }

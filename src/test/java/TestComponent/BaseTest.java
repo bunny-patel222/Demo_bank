@@ -54,8 +54,7 @@ public class BaseTest {
     }
 
     public void intDriver() throws IOException {
-        // Initialize the WebDriver here
-        // For example, using Selenium WebDriver:
+
         LoadData();
 
         if (browserName.equalsIgnoreCase("chrome")) {
@@ -76,7 +75,7 @@ public class BaseTest {
 
     }
 
-    @AfterMethod(alwaysRun = true)
+  //  @AfterMethod(alwaysRun = true)
     public void CloseApp() {
         driver.quit();
     }

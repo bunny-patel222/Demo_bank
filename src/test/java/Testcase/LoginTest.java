@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 public class LoginTest extends BaseTest {
-    @BeforeMethod //(priority = 2,groups = {"smoke"})
+    @Test @BeforeMethod //(priority = 2,groups = {"smoke"})
     public void loginTest() throws Exception {
 
         LaunchApp();
