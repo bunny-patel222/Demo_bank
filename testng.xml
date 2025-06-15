@@ -8,6 +8,16 @@
                     <include name="accountAction"/>
                 </methods>
             </class>
+            <class name="Testcase.LoginTest">
+                <methods>
+                    <include name="LoginTest"/>
+                </methods>
+            </class>
+            <class name="Testcase.RegisterTest">
+                <methods>
+                    <include name="registerTest"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
